@@ -1,0 +1,128 @@
+body{
+	font-family: Arial, Helvetica;
+	font-size: 11pt;
+	background-color: lavender;
+	padding: 5px;
+	color: steelblue;
+}
+
+header{
+	background-color: steelblue;
+	height: 45px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	left: 5px;
+	padding: 5px;
+}
+
+ul a{
+	color: steelblue;
+	font-weight: bold;
+}
+
+li{
+	display: inline-block;
+	height: 15px;
+	width: 100px;
+	padding: 5px;
+	text-align: center;
+	border-top: 1px solid white;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 1px solid white;
+	background-color: #b0c4de;
+}
+
+li:hover{
+	background-color: lightblue;
+	border-style: none;
+}
+
+#PagA{
+	position: absolute;
+	top: 15px;
+	left: 20%;
+	transform: translate(-20%, 0);
+}
+
+#PagB{
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+#PagC{
+	position: absolute;
+	top: 15px;
+	left: 80%;
+	transform: translate(-80%, 0);
+}
+
+.container{
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	padding: 10px;	
+}
+
+figure{
+	position: absolute;
+	left: -30px;
+	transform: translate(0, 0);
+}
+
+#cv{
+	border-style: solid;
+	border-color: steelblue;
+	border-width: 1px;
+	padding: 15px;
+}
+
+.lbl{
+	font-size: 8pt;
+}
+
+th{
+	text-align: left;
+	color: black
+}
+
+input[type="text"], input[type="email"], textarea, select, button{
+	display: block;
+	margin: 15px 0px;
+	width: 400px;
+	box-sizing: border-box;
+	color: steelblue;
+	border-color: steelblue;
+	border-width: 1px;
+}
+
+textarea{
+	height: 100px;
+	padding: 5px 4px;
+	color: steelblue;
+}
+button:active{
+	background-color: steelblue;
+	color: white;
+	border-radius: 4px; box-shadow: inset 2px 2px 5px steelblue;
+}
+
+footer{
+	background-color: steelblue;
+	height: 30px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	left: 5px;
+}
+footer p{
+	font-size: 8pt;
+	color: white;
+	position: absolute;
+    transform: translate(0, -35%);
+	padding: 5px;
+}
